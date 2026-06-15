@@ -17,9 +17,121 @@
           "ioValue": "__GEOMETRY_INPUT__"
         }
       ]
+    },
+    {
+      "atomType": "Circle",
+      "x": 0.16442048517520216,
+      "y": 0.4064665127020785,
+      "uniqueID": "id-6",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 380
+        }
+      ]
+    },
+    {
+      "atomType": "Circle",
+      "x": 0.18418688230008984,
+      "y": 0.5935334872979214,
+      "uniqueID": "id-9",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 100
+        }
+      ]
+    },
+    {
+      "atomType": "Difference",
+      "x": 0.35399820305480684,
+      "y": 0.47113163972286376,
+      "uniqueID": "id-12",
+      "ioValues": [
+        {
+          "name": "retain",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "remove",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.5444743935309972,
+      "y": 0.46420323325635104,
+      "uniqueID": "id-16",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 10
+        }
+      ]
+    },
+    {
+      "atomType": "Export",
+      "x": 0.6639712488769093,
+      "y": 0.6443418013856812,
+      "uniqueID": "id-20",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "File Type",
+          "ioValue": "SVG",
+          "currentEquation": "SVG"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "M4_Base1",
+          "currentEquation": "M4_Base1"
+        }
+      ],
+      "type": "SVG",
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "M4_Base1"
     }
   ],
-  "allConnectors": [],
+  "allConnectors": [
+    {
+      "ap2Name": "retain",
+      "ap1ID": "id-6",
+      "ap2ID": "id-12"
+    },
+    {
+      "ap2Name": "remove",
+      "ap1ID": "id-9",
+      "ap2ID": "id-12"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-12",
+      "ap2ID": "id-16"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-16",
+      "ap2ID": "id-2"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-16",
+      "ap2ID": "id-20"
+    }
+  ],
   "unitsKey": "MM",
   "fileTypeVersion": 1,
   "filetypeVersion": 1
