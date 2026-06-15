@@ -165,18 +165,6 @@
           ]
         },
         {
-          "atomType": "Circle",
-          "x": 0.28481581311769993,
-          "y": 0.062355658198614314,
-          "uniqueID": "id-39",
-          "ioValues": [
-            {
-              "name": "diameter",
-              "ioValue": 380
-            }
-          ]
-        },
-        {
           "atomType": "Extrude",
           "x": 0.42857142857142855,
           "y": 0.2517321016166282,
@@ -436,11 +424,6 @@
           "ap2ID": "id-42"
         },
         {
-          "ap2Name": "number or geometry",
-          "ap1ID": "id-39",
-          "ap2ID": "id-27"
-        },
-        {
           "ap2Name": "Shape 1",
           "ap1ID": "id-42",
           "ap2ID": "id-66"
@@ -464,6 +447,11 @@
           "ap2Name": "geometry",
           "ap1ID": "id-60",
           "ap2ID": "id-56"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-66",
+          "ap2ID": "id-27"
         },
         {
           "ap2Name": "geometry",
@@ -497,6 +485,52 @@
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.7331536388140162,
+      "y": 0.5450346420323325,
+      "uniqueID": "id-107",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": null
+        }
+      ]
+    },
+    {
+      "atomType": "Export",
+      "x": 0.353099730458221,
+      "y": 0.8637413394919169,
+      "uniqueID": "id-112",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "File Type",
+          "ioValue": "STEP",
+          "currentEquation": "STEP"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "M4_Base2",
+          "currentEquation": "M4_Base2"
+        }
+      ],
+      "type": null,
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "M4_Base2"
     }
   ],
   "allConnectors": [
@@ -516,14 +550,29 @@
       "ap2ID": "id-16"
     },
     {
-      "ap2Name": "number or geometry",
-      "ap1ID": "id-16",
-      "ap2ID": "id-2"
-    },
-    {
       "ap2Name": "geometry",
       "ap1ID": "id-16",
       "ap2ID": "id-20"
+    },
+    {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-16",
+      "ap2ID": "id-107"
+    },
+    {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-25",
+      "ap2ID": "id-107"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-25",
+      "ap2ID": "id-112"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-107",
+      "ap2ID": "id-2"
     }
   ],
   "unitsKey": "MM",
