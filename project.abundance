@@ -106,10 +106,10 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.20305480682839175,
-      "y": 0.766743648960739,
+      "x": 0.20215633423180596,
+      "y": 0.7621247113163973,
       "uniqueID": "id-25",
-      "name": "Molecule",
+      "name": "M4_BaseQtr",
       "topLevel": false,
       "allAtoms": [
         {
@@ -123,9 +123,148 @@
               "ioValue": "__GEOMETRY_INPUT__"
             }
           ]
+        },
+        {
+          "atomType": "Circle",
+          "x": 0.16442048517520216,
+          "y": 0.4387990762124711,
+          "uniqueID": "id-29",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 99
+            }
+          ]
+        },
+        {
+          "atomType": "Circle",
+          "x": 0.1734052111410602,
+          "y": 0.6258660508083141,
+          "uniqueID": "id-32",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 96
+            }
+          ]
+        },
+        {
+          "atomType": "Difference",
+          "x": 0.3243486073674753,
+          "y": 0.4549653579676674,
+          "uniqueID": "id-35",
+          "ioValues": [
+            {
+              "name": "retain",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "remove",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Circle",
+          "x": 0.18149146451033243,
+          "y": 0.20785219399538107,
+          "uniqueID": "id-39",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 380
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.41778975741239893,
+          "y": 0.4757505773672055,
+          "uniqueID": "id-42",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "height",
+              "ioValue": 15
+            }
+          ]
+        },
+        {
+          "atomType": "Circle",
+          "x": 0.18418688230008984,
+          "y": 0.7644341801385681,
+          "uniqueID": "id-46",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 104
+            }
+          ]
+        },
+        {
+          "atomType": "Circle",
+          "x": 0.18418688230008984,
+          "y": 0.8868360277136258,
+          "uniqueID": "id-49",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 102
+            }
+          ]
+        },
+        {
+          "atomType": "Difference",
+          "x": 0.30098831985624436,
+          "y": 0.7782909930715934,
+          "uniqueID": "id-52",
+          "ioValues": [
+            {
+              "name": "retain",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "remove",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
         }
       ],
-      "allConnectors": [],
+      "allConnectors": [
+        {
+          "ap2Name": "retain",
+          "ap1ID": "id-29",
+          "ap2ID": "id-35"
+        },
+        {
+          "ap2Name": "remove",
+          "ap1ID": "id-32",
+          "ap2ID": "id-35"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-35",
+          "ap2ID": "id-42"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-39",
+          "ap2ID": "id-27"
+        },
+        {
+          "ap2Name": "retain",
+          "ap1ID": "id-46",
+          "ap2ID": "id-52"
+        },
+        {
+          "ap2Name": "remove",
+          "ap1ID": "id-49",
+          "ap2ID": "id-52"
+        }
+      ],
       "fileTypeVersion": 1
     }
   ],
