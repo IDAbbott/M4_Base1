@@ -200,7 +200,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 104
+              "ioValue": 115
             }
           ]
         },
@@ -212,7 +212,8 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 102
+              "ioValue": 102,
+              "currentEquation": "102"
             }
           ]
         },
@@ -244,7 +245,7 @@
             },
             {
               "name": "height",
-              "ioValue": 4
+              "ioValue": 5
             }
           ]
         },
@@ -373,8 +374,8 @@
         },
         {
           "atomType": "Extrude",
-          "x": 0.2545372866127583,
-          "y": 0.8614318706697459,
+          "x": 0.2578616352201258,
+          "y": 0.859122401847575,
           "uniqueID": "id-96",
           "ioValues": [
             {
@@ -425,6 +426,11 @@
           "ap2ID": "id-35"
         },
         {
+          "ap2Name": "remove",
+          "ap1ID": "id-32",
+          "ap2ID": "id-52"
+        },
+        {
           "ap2Name": "geometry",
           "ap1ID": "id-35",
           "ap2ID": "id-42"
@@ -442,11 +448,6 @@
         {
           "ap2Name": "retain",
           "ap1ID": "id-46",
-          "ap2ID": "id-52"
-        },
-        {
-          "ap2Name": "remove",
-          "ap1ID": "id-49",
           "ap2ID": "id-52"
         },
         {
