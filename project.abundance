@@ -696,14 +696,14 @@
         },
         {
           "name": "Part Name",
-          "ioValue": "M4_Base2",
-          "currentEquation": "M4_Base2"
+          "ioValue": "M4_BaseQtr",
+          "currentEquation": "M4_BaseQtr"
         }
       ],
       "type": null,
       "resolution": 96,
       "importIndex": 0,
-      "partName": "M4_Base2"
+      "partName": "M4_BaseQtr"
     }
   ],
   "allConnectors": [
