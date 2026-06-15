@@ -260,8 +260,7 @@
             },
             {
               "name": "y length",
-              "ioValue": 4,
-              "currentEquation": "4"
+              "ioValue": 4
             }
           ]
         },
@@ -319,7 +318,7 @@
             },
             {
               "name": "y length",
-              "ioValue": 20
+              "ioValue": 30
             }
           ]
         },
@@ -513,8 +512,8 @@
         },
         {
           "atomType": "Rotate",
-          "x": 0.7762803234501348,
-          "y": 0.7159353348729792,
+          "x": 0.7816711590296496,
+          "y": 0.7043879907621247,
           "uniqueID": "id-156",
           "ioValues": [
             {
@@ -523,7 +522,7 @@
             },
             {
               "name": "x-axis degrees",
-              "ioValue": 0
+              "ioValue": 180
             },
             {
               "name": "y-axis degrees",
@@ -648,14 +647,14 @@
           "ap2ID": "id-141"
         },
         {
-          "ap2Name": "number or geometry",
-          "ap1ID": "id-151",
-          "ap2ID": "id-27"
-        },
-        {
           "ap2Name": "geometry",
           "ap1ID": "id-151",
           "ap2ID": "id-156"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-156",
+          "ap2ID": "id-27"
         }
       ],
       "fileTypeVersion": 1
