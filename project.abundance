@@ -76,8 +76,8 @@
     },
     {
       "atomType": "Export",
-      "x": 0.6639712488769093,
-      "y": 0.6443418013856812,
+      "x": 0.7214734950584007,
+      "y": 0.24711316397228636,
       "uniqueID": "id-20",
       "ioValues": [
         {
@@ -86,8 +86,8 @@
         },
         {
           "name": "File Type",
-          "ioValue": "SVG",
-          "currentEquation": "SVG"
+          "ioValue": "STEP",
+          "currentEquation": "STEP"
         },
         {
           "name": "Resolution (dpi)",
@@ -99,10 +99,34 @@
           "currentEquation": "M4_Base1"
         }
       ],
-      "type": "SVG",
+      "type": "STEP",
       "resolution": 96,
       "importIndex": 0,
       "partName": "M4_Base1"
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.20305480682839175,
+      "y": 0.766743648960739,
+      "uniqueID": "id-25",
+      "name": "Molecule",
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-27",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        }
+      ],
+      "allConnectors": [],
+      "fileTypeVersion": 1
     }
   ],
   "allConnectors": [
