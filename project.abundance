@@ -274,8 +274,8 @@
         },
         {
           "atomType": "Assembly",
-          "x": 0.6019766397124887,
-          "y": 0.4503464203233256,
+          "x": 0.6064690026954178,
+          "y": 0.44803695150115475,
           "uniqueID": "id-66",
           "ioValues": [
             {
@@ -288,6 +288,10 @@
             },
             {
               "name": "Shape 3",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 4",
               "ioValue": null
             }
           ]
@@ -346,6 +350,64 @@
             },
             {
               "name": "height",
+              "ioValue": 14
+            }
+          ]
+        },
+        {
+          "atomType": "Rectangle",
+          "x": 0.1545372866127583,
+          "y": 0.8614318706697459,
+          "uniqueID": "id-92",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 130,
+              "currentEquation": "130"
+            },
+            {
+              "name": "y length",
+              "ioValue": 20
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.2545372866127583,
+          "y": 0.8614318706697459,
+          "uniqueID": "id-96",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "height",
+              "ioValue": 5
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.3545372866127583,
+          "y": 0.8614318706697459,
+          "uniqueID": "id-100",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 115
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0,
+              "currentEquation": "0"
+            },
+            {
+              "name": "zDist",
               "ioValue": 16
             }
           ]
@@ -416,6 +478,21 @@
           "ap2Name": "geometry",
           "ap1ID": "id-81",
           "ap2ID": "id-75"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-92",
+          "ap2ID": "id-96"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-96",
+          "ap2ID": "id-100"
+        },
+        {
+          "ap2Name": "Shape 4",
+          "ap1ID": "id-100",
+          "ap2ID": "id-66"
         }
       ],
       "fileTypeVersion": 1
