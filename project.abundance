@@ -1085,8 +1085,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.174303683737646,
-      "y": 0.8475750577367206,
+      "x": 0.1536388140161725,
+      "y": 0.9630484988452656,
       "uniqueID": "id-366",
       "name": "MotorSpacer",
       "topLevel": false,
@@ -1235,11 +1235,12 @@
             },
             {
               "name": "xDist",
-              "ioValue": 100
+              "ioValue": 116
             },
             {
               "name": "yDist",
-              "ioValue": 0
+              "ioValue": 0,
+              "currentEquation": "0"
             },
             {
               "name": "zDist",
@@ -1299,8 +1300,8 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.5103324348607368,
-      "y": 0.8244803695150116,
+      "x": 0.5094339622641509,
+      "y": 0.815242494226328,
       "uniqueID": "id-410",
       "ioValues": [
         {
@@ -1310,6 +1311,46 @@
         {
           "name": "remove",
           "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.5292003593890386,
+      "y": 0.6697459584295612,
+      "uniqueID": "id-420",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": null
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.21743036837376462,
+      "y": 0.7413394919168591,
+      "uniqueID": "id-425",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 5
         }
       ]
     }
@@ -1346,9 +1387,9 @@
       "ap2ID": "id-332"
     },
     {
-      "ap2Name": "remove",
+      "ap2Name": "geometry",
       "ap1ID": "id-267",
-      "ap2ID": "id-410"
+      "ap2ID": "id-425"
     },
     {
       "ap2Name": "geometry",
@@ -1358,6 +1399,21 @@
     {
       "ap2Name": "retain",
       "ap1ID": "id-366",
+      "ap2ID": "id-410"
+    },
+    {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-366",
+      "ap2ID": "id-420"
+    },
+    {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-425",
+      "ap2ID": "id-420"
+    },
+    {
+      "ap2Name": "remove",
+      "ap1ID": "id-425",
       "ap2ID": "id-410"
     }
   ],
