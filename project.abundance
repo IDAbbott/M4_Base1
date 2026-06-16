@@ -1111,11 +1111,11 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 40
+              "ioValue": 42
             },
             {
               "name": "y length",
-              "ioValue": 40
+              "ioValue": 42
             }
           ]
         },
@@ -1187,7 +1187,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 50
+              "ioValue": 54
             }
           ]
         },
@@ -1315,22 +1315,6 @@
       ]
     },
     {
-      "atomType": "Assembly",
-      "x": 0.5292003593890386,
-      "y": 0.6697459584295612,
-      "uniqueID": "id-420",
-      "ioValues": [
-        {
-          "name": "Shape 1",
-          "ioValue": null
-        },
-        {
-          "name": "Shape 2",
-          "ioValue": null
-        }
-      ]
-    },
-    {
       "atomType": "Move",
       "x": 0.21743036837376462,
       "y": 0.7413394919168591,
@@ -1353,6 +1337,36 @@
           "ioValue": 5
         }
       ]
+    },
+    {
+      "atomType": "Export",
+      "x": 0.6406109613656783,
+      "y": 0.7990762124711317,
+      "uniqueID": "id-431",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "File Type",
+          "ioValue": "STEP",
+          "currentEquation": "STEP"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "MotorSpacer",
+          "currentEquation": "MotorSpacer"
+        }
+      ],
+      "type": null,
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "MotorSpacer"
     }
   ],
   "allConnectors": [
@@ -1402,14 +1416,9 @@
       "ap2ID": "id-410"
     },
     {
-      "ap2Name": "Shape 1",
-      "ap1ID": "id-366",
-      "ap2ID": "id-420"
-    },
-    {
-      "ap2Name": "Shape 2",
-      "ap1ID": "id-425",
-      "ap2ID": "id-420"
+      "ap2Name": "geometry",
+      "ap1ID": "id-410",
+      "ap2ID": "id-431"
     },
     {
       "ap2Name": "remove",
