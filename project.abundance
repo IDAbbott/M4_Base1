@@ -113,6 +113,10 @@
         {
           "name": "Shape 2",
           "ioValue": null
+        },
+        {
+          "name": "Shape 3",
+          "ioValue": null
         }
       ]
     },
@@ -548,8 +552,8 @@
         },
         {
           "atomType": "Rotate",
-          "x": 0.7816711590296496,
-          "y": 0.7043879907621247,
+          "x": 0.8787061994609163,
+          "y": 0.5612009237875288,
           "uniqueID": "id-156",
           "ioValues": [
             {
@@ -567,6 +571,31 @@
             {
               "name": "z-axis degrees",
               "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.7690925426774483,
+          "y": 0.5889145496535797,
+          "uniqueID": "id-301",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0,
+              "currentEquation": "0"
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": -21
             }
           ]
         }
@@ -685,12 +714,17 @@
         {
           "ap2Name": "geometry",
           "ap1ID": "id-151",
-          "ap2ID": "id-156"
+          "ap2ID": "id-301"
         },
         {
           "ap2Name": "number or geometry",
           "ap1ID": "id-156",
           "ap2ID": "id-27"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-301",
+          "ap2ID": "id-156"
         }
       ],
       "fileTypeVersion": 1
@@ -859,6 +893,55 @@
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Move",
+      "x": 0.30098831985624436,
+      "y": 0.44803695150115475,
+      "uniqueID": "id-308",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 100
+        },
+        {
+          "name": "yDist",
+          "ioValue": 10,
+          "currentEquation": "10"
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Rotate",
+      "x": 0.4009883198562444,
+      "y": 0.44803695150115475,
+      "uniqueID": "id-314",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "x-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 0
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -896,6 +979,21 @@
       "ap2Name": "geometry",
       "ap1ID": "id-25",
       "ap2ID": "id-112"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-267",
+      "ap2ID": "id-308"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-308",
+      "ap2ID": "id-314"
+    },
+    {
+      "ap2Name": "Shape 3",
+      "ap1ID": "id-314",
+      "ap2ID": "id-107"
     }
   ],
   "unitsKey": "MM",
