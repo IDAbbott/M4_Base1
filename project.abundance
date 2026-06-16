@@ -2517,15 +2517,16 @@
             },
             {
               "name": "xDist",
-              "ioValue": 111
+              "ioValue": 0
             },
             {
               "name": "yDist",
-              "ioValue": 0
+              "ioValue": 111
             },
             {
               "name": "zDist",
-              "ioValue": 0
+              "ioValue": 0,
+              "currentEquation": "0"
             }
           ]
         },
@@ -2555,9 +2556,57 @@
         },
         {
           "atomType": "Move",
-          "x": 0.6900269541778976,
-          "y": 0.6720554272517321,
+          "x": 0.6891284815813118,
+          "y": 0.7806004618937644,
           "uniqueID": "id-1387",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": -111
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Assembly",
+          "x": 0.8454627133872417,
+          "y": 0.5080831408775981,
+          "uniqueID": "id-1393",
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 3",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 4",
+              "ioValue": null
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.6864330637915544,
+          "y": 0.6189376443418013,
+          "uniqueID": "id-1460",
           "ioValues": [
             {
               "name": "geometry",
@@ -2578,18 +2627,26 @@
           ]
         },
         {
-          "atomType": "Assembly",
-          "x": 0.7475292003593891,
-          "y": 0.5219399538106235,
-          "uniqueID": "id-1393",
+          "atomType": "Move",
+          "x": 0.6936208445642408,
+          "y": 0.26558891454965355,
+          "uniqueID": "id-1466",
           "ioValues": [
             {
-              "name": "Shape 1",
-              "ioValue": null
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
             },
             {
-              "name": "Shape 2",
-              "ioValue": null
+              "name": "xDist",
+              "ioValue": 111
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
             }
           ]
         }
@@ -2627,6 +2684,16 @@
         },
         {
           "ap2Name": "geometry",
+          "ap1ID": "id-389",
+          "ap2ID": "id-1460"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-389",
+          "ap2ID": "id-1466"
+        },
+        {
+          "ap2Name": "geometry",
           "ap1ID": "id-399",
           "ap2ID": "id-402"
         },
@@ -2641,7 +2708,7 @@
           "ap2ID": "id-389"
         },
         {
-          "ap2Name": "Shape 1",
+          "ap2Name": "Shape 2",
           "ap1ID": "id-414",
           "ap2ID": "id-1393"
         },
@@ -2651,7 +2718,7 @@
           "ap2ID": "id-389"
         },
         {
-          "ap2Name": "Shape 2",
+          "ap2Name": "Shape 4",
           "ap1ID": "id-1387",
           "ap2ID": "id-1393"
         },
@@ -2659,6 +2726,16 @@
           "ap2Name": "number or geometry",
           "ap1ID": "id-1393",
           "ap2ID": "id-368"
+        },
+        {
+          "ap2Name": "Shape 3",
+          "ap1ID": "id-1460",
+          "ap2ID": "id-1393"
+        },
+        {
+          "ap2Name": "Shape 1",
+          "ap1ID": "id-1466",
+          "ap2ID": "id-1393"
         }
       ],
       "fileTypeVersion": 1
@@ -2915,8 +2992,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.42857142857142855,
-      "y": 0.45958429561200925,
+      "x": 0.42677448337825696,
+      "y": 0.4503464203233256,
       "uniqueID": "id-1382",
       "ioValues": [
         {
