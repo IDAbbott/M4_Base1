@@ -106,8 +106,8 @@
     },
     {
       "atomType": "Export",
-      "x": 0.5211141060197664,
-      "y": 0.35334872979214776,
+      "x": 0.6801437556154537,
+      "y": 0.3810623556581986,
       "uniqueID": "id-112",
       "ioValues": [
         {
@@ -715,8 +715,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.14465408805031446,
-      "y": 0.6558891454965358,
+      "x": 0.14375561545372867,
+      "y": 0.6581986143187066,
       "uniqueID": "id-267",
       "name": "Molecule",
       "topLevel": false,
@@ -854,11 +854,12 @@
             },
             {
               "name": "yDist",
-              "ioValue": 10
+              "ioValue": 8
             },
             {
               "name": "zDist",
-              "ioValue": -5
+              "ioValue": -5,
+              "currentEquation": "-5"
             }
           ]
         },
@@ -937,56 +938,6 @@
       "fileTypeVersion": 1
     },
     {
-      "atomType": "Move",
-      "x": 0.2839173405211141,
-      "y": 0.6581986143187066,
-      "uniqueID": "id-308",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "xDist",
-          "ioValue": 100
-        },
-        {
-          "name": "yDist",
-          "ioValue": 10,
-          "currentEquation": "10"
-        },
-        {
-          "name": "zDist",
-          "ioValue": -5
-        }
-      ]
-    },
-    {
-      "atomType": "Rotate",
-      "x": 0.39802336028751123,
-      "y": 0.6397228637413395,
-      "uniqueID": "id-314",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "x-axis degrees",
-          "ioValue": 180
-        },
-        {
-          "name": "y-axis degrees",
-          "ioValue": 0,
-          "currentEquation": "0"
-        },
-        {
-          "name": "z-axis degrees",
-          "ioValue": 0
-        }
-      ]
-    },
-    {
       "atomType": "Difference",
       "x": 0.5363881401617251,
       "y": 0.5196304849884527,
@@ -1025,29 +976,19 @@
       "ap2ID": "id-20"
     },
     {
-      "ap2Name": "geometry",
-      "ap1ID": "id-25",
-      "ap2ID": "id-112"
-    },
-    {
       "ap2Name": "retain",
       "ap1ID": "id-25",
       "ap2ID": "id-332"
     },
     {
-      "ap2Name": "geometry",
-      "ap1ID": "id-267",
-      "ap2ID": "id-308"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-308",
-      "ap2ID": "id-314"
-    },
-    {
       "ap2Name": "remove",
-      "ap1ID": "id-314",
+      "ap1ID": "id-267",
       "ap2ID": "id-332"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-332",
+      "ap2ID": "id-112"
     }
   ],
   "unitsKey": "MM",
