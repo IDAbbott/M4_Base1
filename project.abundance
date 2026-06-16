@@ -893,8 +893,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.09433962264150944,
-      "y": 0.7159353348729792,
+      "x": 0.10242587601078167,
+      "y": 0.5542725173210161,
       "uniqueID": "id-267",
       "name": "MotorHoles",
       "topLevel": false,
@@ -2367,8 +2367,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.3836477987421384,
-      "y": 0.6743648960739029,
+      "x": 0.16981132075471697,
+      "y": 0.7228637413394918,
       "uniqueID": "id-366",
       "name": "MotorSpacer",
       "topLevel": false,
@@ -2507,8 +2507,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.7349505840071878,
-          "y": 0.47344110854503463,
+          "x": 0.6936208445642408,
+          "y": 0.40415704387990764,
           "uniqueID": "id-414",
           "ioValues": [
             {
@@ -2552,6 +2552,46 @@
               "ioValue": 3.5
             }
           ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.6900269541778976,
+          "y": 0.6720554272517321,
+          "uniqueID": "id-1387",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": -111
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Assembly",
+          "x": 0.7475292003593891,
+          "y": 0.5219399538106235,
+          "uniqueID": "id-1393",
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": null
+            }
+          ]
         }
       ],
       "allConnectors": [
@@ -2582,6 +2622,11 @@
         },
         {
           "ap2Name": "geometry",
+          "ap1ID": "id-389",
+          "ap2ID": "id-1387"
+        },
+        {
+          "ap2Name": "geometry",
           "ap1ID": "id-399",
           "ap2ID": "id-402"
         },
@@ -2596,22 +2641,32 @@
           "ap2ID": "id-389"
         },
         {
-          "ap2Name": "number or geometry",
+          "ap2Name": "Shape 1",
           "ap1ID": "id-414",
-          "ap2ID": "id-368"
+          "ap2ID": "id-1393"
         },
         {
           "ap2Name": "remove",
           "ap1ID": "id-437",
           "ap2ID": "id-389"
+        },
+        {
+          "ap2Name": "Shape 2",
+          "ap1ID": "id-1387",
+          "ap2ID": "id-1393"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-1393",
+          "ap2ID": "id-368"
         }
       ],
       "fileTypeVersion": 1
     },
     {
       "atomType": "Molecule",
-      "x": 0.5992812219227314,
-      "y": 0.6073903002309469,
+      "x": 0.1752021563342318,
+      "y": 0.6166281755196305,
       "uniqueID": "id-1035",
       "name": "SupportBrace",
       "topLevel": false,
@@ -2680,7 +2735,7 @@
             },
             {
               "name": "height",
-              "ioValue": 5
+              "ioValue": 6
             }
           ]
         },
@@ -2860,8 +2915,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.7547169811320755,
-      "y": 0.6720554272517321,
+      "x": 0.41778975741239893,
+      "y": 0.6882217090069285,
       "uniqueID": "id-1382",
       "ioValues": [
         {
@@ -2932,11 +2987,6 @@
       "ap2ID": "id-425"
     },
     {
-      "ap2Name": "retain",
-      "ap1ID": "id-366",
-      "ap2ID": "id-410"
-    },
-    {
       "ap2Name": "Shape 2",
       "ap1ID": "id-366",
       "ap2ID": "id-1382"
@@ -2945,6 +2995,11 @@
       "ap2Name": "Shape 1",
       "ap1ID": "id-1035",
       "ap2ID": "id-1382"
+    },
+    {
+      "ap2Name": "retain",
+      "ap1ID": "id-1382",
+      "ap2ID": "id-410"
     }
   ],
   "unitsKey": "MM",
