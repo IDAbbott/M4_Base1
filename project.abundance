@@ -718,7 +718,7 @@
       "x": 0.14375561545372867,
       "y": 0.6581986143187066,
       "uniqueID": "id-267",
-      "name": "Molecule",
+      "name": "MotorHoles",
       "topLevel": false,
       "allAtoms": [
         {
@@ -840,8 +840,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.4734950584007188,
-          "y": 0.394919168591224,
+          "x": 0.6163522012578617,
+          "y": 0.27713625866050806,
           "uniqueID": "id-320",
           "ioValues": [
             {
@@ -854,7 +854,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": 8
+              "ioValue": 16
             },
             {
               "name": "zDist",
@@ -865,8 +865,8 @@
         },
         {
           "atomType": "Rotate",
-          "x": 0.6082659478885895,
-          "y": 0.35334872979214776,
+          "x": 0.4932614555256065,
+          "y": 0.5334872979214781,
           "uniqueID": "id-321",
           "ioValues": [
             {
@@ -884,6 +884,30 @@
             {
               "name": "z-axis degrees",
               "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.6154537286612758,
+          "y": 0.4549653579676674,
+          "uniqueID": "id-336",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 100
+            },
+            {
+              "name": "yDist",
+              "ioValue": 16
+            },
+            {
+              "name": "zDist",
+              "ioValue": -5
             }
           ]
         }
@@ -917,7 +941,7 @@
         {
           "ap2Name": "geometry",
           "ap1ID": "id-288",
-          "ap2ID": "id-320"
+          "ap2ID": "id-321"
         },
         {
           "ap2Name": "Shape 3",
@@ -925,14 +949,19 @@
           "ap2ID": "id-288"
         },
         {
-          "ap2Name": "geometry",
+          "ap2Name": "number or geometry",
           "ap1ID": "id-320",
-          "ap2ID": "id-321"
+          "ap2ID": "id-269"
         },
         {
-          "ap2Name": "number or geometry",
+          "ap2Name": "geometry",
           "ap1ID": "id-321",
-          "ap2ID": "id-269"
+          "ap2ID": "id-320"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-321",
+          "ap2ID": "id-336"
         }
       ],
       "fileTypeVersion": 1
