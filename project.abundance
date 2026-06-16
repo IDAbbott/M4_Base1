@@ -136,8 +136,8 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.5363881401617251,
-      "y": 0.5196304849884527,
+      "x": 0.5336927223719676,
+      "y": 0.5173210161662818,
       "uniqueID": "id-332",
       "ioValues": [
         {
@@ -803,8 +803,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.0853548966756514,
-      "y": 0.7759815242494226,
+      "x": 0.09433962264150944,
+      "y": 0.7159353348729792,
       "uniqueID": "id-267",
       "name": "MotorHoles",
       "topLevel": false,
@@ -992,7 +992,7 @@
         {
           "atomType": "Move",
           "x": 0.6990116801437556,
-          "y": 0.7297921478060047,
+          "y": 0.7274826789838337,
           "uniqueID": "id-348",
           "ioValues": [
             {
@@ -1015,8 +1015,8 @@
         },
         {
           "atomType": "Assembly",
-          "x": 0.8283917340521113,
-          "y": 0.5196304849884527,
+          "x": 0.8535489667565139,
+          "y": 0.5103926096997691,
           "uniqueID": "id-354",
           "ioValues": [
             {
@@ -1033,6 +1033,14 @@
             },
             {
               "name": "Shape 4",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 5",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 6",
               "ioValue": null
             }
           ]
@@ -1130,6 +1138,56 @@
             }
           ],
           "currentEquation": "x * y"
+        },
+        {
+          "atomType": "Move",
+          "x": 0.697214734950584,
+          "y": 0.8406466512702079,
+          "uniqueID": "id-710",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 85
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0,
+              "currentEquation": "0"
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.6954177897574124,
+          "y": 0.9330254041570438,
+          "uniqueID": "id-716",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 140
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0,
+              "currentEquation": "0"
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
         }
       ],
       "allConnectors": [
@@ -1152,6 +1210,16 @@
           "ap2Name": "geometry",
           "ap1ID": "id-288",
           "ap2ID": "id-321"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-288",
+          "ap2ID": "id-710"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-288",
+          "ap2ID": "id-716"
         },
         {
           "ap2Name": "Shape 3",
@@ -1267,6 +1335,16 @@
           "ap2Name": "yDist",
           "ap1ID": "id-461",
           "ap2ID": "id-348"
+        },
+        {
+          "ap2Name": "Shape 5",
+          "ap1ID": "id-710",
+          "ap2ID": "id-354"
+        },
+        {
+          "ap2Name": "Shape 6",
+          "ap1ID": "id-716",
+          "ap2ID": "id-354"
         }
       ],
       "fileTypeVersion": 1
