@@ -2446,8 +2446,8 @@
         },
         {
           "atomType": "Difference",
-          "x": 0.5633423180592991,
-          "y": 0.4665127020785219,
+          "x": 0.568733153638814,
+          "y": 0.45265588914549654,
           "uniqueID": "id-389",
           "ioValues": [
             {
@@ -2604,6 +2604,123 @@
           "ap2Name": "remove",
           "ap1ID": "id-437",
           "ap2ID": "id-389"
+        }
+      ],
+      "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.5992812219227314,
+      "y": 0.6073903002309469,
+      "uniqueID": "id-1035",
+      "name": "SupportBrace",
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-1037",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Circle",
+          "x": 0.1931716082659479,
+          "y": 0.41108545034642036,
+          "uniqueID": "id-1039",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 95
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.2931716082659479,
+          "y": 0.41108545034642036,
+          "uniqueID": "id-1042",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "height",
+              "ioValue": 6
+            }
+          ]
+        },
+        {
+          "atomType": "Circle",
+          "x": 0.18688230008984727,
+          "y": 0.21709006928406466,
+          "uniqueID": "id-1046",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 140
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.2868823000898473,
+          "y": 0.21709006928406466,
+          "uniqueID": "id-1049",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "height",
+              "ioValue": 4
+            }
+          ]
+        },
+        {
+          "atomType": "Difference",
+          "x": 0.43935309973045816,
+          "y": 0.2863741339491917,
+          "uniqueID": "id-1053",
+          "ioValues": [
+            {
+              "name": "retain",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "remove",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-1039",
+          "ap2ID": "id-1042"
+        },
+        {
+          "ap2Name": "remove",
+          "ap1ID": "id-1042",
+          "ap2ID": "id-1053"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-1046",
+          "ap2ID": "id-1049"
+        },
+        {
+          "ap2Name": "retain",
+          "ap1ID": "id-1049",
+          "ap2ID": "id-1053"
         }
       ],
       "fileTypeVersion": 1
