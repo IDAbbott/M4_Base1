@@ -741,7 +741,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 7
+              "ioValue": 7.5
             }
           ]
         },
@@ -753,7 +753,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 5
+              "ioValue": 5.5
             }
           ]
         },
@@ -1085,8 +1085,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.1536388140161725,
-      "y": 0.9630484988452656,
+      "x": 0.14285714285714285,
+      "y": 0.9653579676674365,
       "uniqueID": "id-366",
       "name": "MotorSpacer",
       "topLevel": false,
