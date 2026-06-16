@@ -1533,9 +1533,88 @@
               "ioValue": "__GEOMETRY_INPUT__"
             }
           ]
+        },
+        {
+          "atomType": "Circle",
+          "x": 0.17879604672057503,
+          "y": 0.2909930715935335,
+          "uniqueID": "id-693",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 6.5
+            }
+          ]
+        },
+        {
+          "atomType": "Circle",
+          "x": 0.1931716082659479,
+          "y": 0.6397228637413395,
+          "uniqueID": "id-696",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 3.5
+            }
+          ]
+        },
+        {
+          "atomType": "Circle",
+          "x": 0.18059299191374664,
+          "y": 0.4341801385681293,
+          "uniqueID": "id-699",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 5.5
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.28059299191374665,
+          "y": 0.4341801385681293,
+          "uniqueID": "id-702",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "height",
+              "ioValue": 10
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.278796046720575,
+          "y": 0.2909930715935335,
+          "uniqueID": "id-706",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "height",
+              "ioValue": 30
+            }
+          ]
         }
       ],
-      "allConnectors": [],
+      "allConnectors": [
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-693",
+          "ap2ID": "id-706"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-699",
+          "ap2ID": "id-702"
+        }
+      ],
       "fileTypeVersion": 1
     }
   ],
