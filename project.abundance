@@ -222,8 +222,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.10961365678346811,
-      "y": 0.4665127020785219,
+      "x": 0.1105121293800539,
+      "y": 0.44803695150115475,
       "uniqueID": "id-25",
       "name": "M4_BaseQtr",
       "topLevel": false,
@@ -647,14 +647,14 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 6.5
+              "ioValue": 8
             }
           ]
         },
         {
           "atomType": "Extrude",
-          "x": 0.20125786163522014,
-          "y": 0.9076212471131639,
+          "x": 0.20664869721473494,
+          "y": 0.9168591224018476,
           "uniqueID": "id-727",
           "ioValues": [
             {
@@ -663,7 +663,7 @@
             },
             {
               "name": "height",
-              "ioValue": 20
+              "ioValue": 10
             }
           ]
         },
@@ -683,7 +683,8 @@
             },
             {
               "name": "yDist",
-              "ioValue": 0
+              "ioValue": 0,
+              "currentEquation": "0"
             },
             {
               "name": "zDist",
@@ -707,7 +708,8 @@
             },
             {
               "name": "yDist",
-              "ioValue": 0
+              "ioValue": 0,
+              "currentEquation": "0"
             },
             {
               "name": "zDist",
