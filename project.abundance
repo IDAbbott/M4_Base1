@@ -152,8 +152,8 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.5094339622641509,
-      "y": 0.815242494226328,
+      "x": 0.5076370170709793,
+      "y": 0.812933025404157,
       "uniqueID": "id-410",
       "ioValues": [
         {
@@ -372,8 +372,7 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 80,
-              "currentEquation": "80"
+              "ioValue": 80
             },
             {
               "name": "y length",
@@ -397,8 +396,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             },
             {
               "name": "zDist",
@@ -470,8 +468,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             },
             {
               "name": "zDist",
@@ -683,8 +680,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             },
             {
               "name": "zDist",
@@ -708,8 +704,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             },
             {
               "name": "zDist",
@@ -1249,8 +1244,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             },
             {
               "name": "zDist",
@@ -1274,8 +1268,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             },
             {
               "name": "zDist",
@@ -1286,7 +1279,7 @@
         {
           "atomType": "Fusion",
           "x": 0.8742138364779874,
-          "y": 0.6581986143187066,
+          "y": 0.6628175519630485,
           "uniqueID": "id-755",
           "ioValues": [
             {
@@ -1968,14 +1961,7 @@
                 "color": "#aad7f2",
                 "tags": [],
                 "bom": [],
-                "nonReplicadSerialized": [
-                  {},
-                  {},
-                  {},
-                  {},
-                  {},
-                  {}
-                ],
+                "nonReplicadSerialized": [],
                 "boundingBox": {
                   "min": [
                     81.2499999,
@@ -2161,8 +2147,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": 15.5,
-              "currentEquation": "15.5"
+              "ioValue": 15.5
             },
             {
               "name": "zDist",
@@ -2182,8 +2167,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": 145,
-              "currentEquation": "145"
+              "ioValue": 145
             },
             {
               "name": "yDist",
@@ -2532,11 +2516,12 @@
             },
             {
               "name": "xDist",
-              "ioValue": 116
+              "ioValue": 111
             },
             {
               "name": "yDist",
-              "ioValue": 0
+              "ioValue": 0,
+              "currentEquation": "0"
             },
             {
               "name": "zDist",
