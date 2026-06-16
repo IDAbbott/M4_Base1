@@ -20,8 +20,8 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.16442048517520216,
-      "y": 0.4064665127020785,
+      "x": 0.14914645103324348,
+      "y": 0.18937644341801385,
       "uniqueID": "id-6",
       "ioValues": [
         {
@@ -32,8 +32,8 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.18418688230008984,
-      "y": 0.5935334872979214,
+      "x": 0.1545372866127583,
+      "y": 0.3464203233256351,
       "uniqueID": "id-9",
       "ioValues": [
         {
@@ -44,8 +44,8 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.35399820305480684,
-      "y": 0.47113163972286376,
+      "x": 0.37376460017969454,
+      "y": 0.19630484988452657,
       "uniqueID": "id-12",
       "ioValues": [
         {
@@ -60,8 +60,8 @@
     },
     {
       "atomType": "Extrude",
-      "x": 0.5444743935309972,
-      "y": 0.46420323325635104,
+      "x": 0.555256064690027,
+      "y": 0.21709006928406466,
       "uniqueID": "id-16",
       "ioValues": [
         {
@@ -103,6 +103,48 @@
       "resolution": 96,
       "importIndex": 0,
       "partName": "M4_Base1"
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.7331536388140162,
+      "y": 0.5450346420323325,
+      "uniqueID": "id-107",
+      "ioValues": [
+        {
+          "name": "Shape 2",
+          "ioValue": null
+        }
+      ]
+    },
+    {
+      "atomType": "Export",
+      "x": 0.353099730458221,
+      "y": 0.8637413394919169,
+      "uniqueID": "id-112",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "File Type",
+          "ioValue": "STEP",
+          "currentEquation": "STEP"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "M4_BaseQtr",
+          "currentEquation": "M4_BaseQtr"
+        }
+      ],
+      "type": null,
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "M4_BaseQtr"
     },
     {
       "atomType": "Molecule",
@@ -280,8 +322,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             },
             {
               "name": "zDist",
@@ -313,8 +354,7 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 130,
-              "currentEquation": "130"
+              "ioValue": 130
             },
             {
               "name": "y length",
@@ -354,8 +394,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             },
             {
               "name": "zDist",
@@ -403,8 +442,7 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 100,
-              "currentEquation": "100"
+              "ioValue": 100
             },
             {
               "name": "y length",
@@ -444,8 +482,7 @@
             },
             {
               "name": "y-axis degrees",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             },
             {
               "name": "z-axis degrees",
@@ -485,8 +522,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             },
             {
               "name": "zDist",
@@ -660,50 +696,28 @@
       "fileTypeVersion": 1
     },
     {
-      "atomType": "Assembly",
-      "x": 0.7331536388140162,
-      "y": 0.5450346420323325,
-      "uniqueID": "id-107",
-      "ioValues": [
+      "atomType": "Molecule",
+      "x": 0.17879604672057503,
+      "y": 0.5334872979214781,
+      "uniqueID": "id-267",
+      "name": "Molecule",
+      "topLevel": false,
+      "allAtoms": [
         {
-          "name": "Shape 1",
-          "ioValue": null
-        },
-        {
-          "name": "Shape 2",
-          "ioValue": null
-        }
-      ]
-    },
-    {
-      "atomType": "Export",
-      "x": 0.353099730458221,
-      "y": 0.8637413394919169,
-      "uniqueID": "id-112",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "File Type",
-          "ioValue": "STEP",
-          "currentEquation": "STEP"
-        },
-        {
-          "name": "Resolution (dpi)",
-          "ioValue": 96
-        },
-        {
-          "name": "Part Name",
-          "ioValue": "M4_BaseQtr",
-          "currentEquation": "M4_BaseQtr"
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-269",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
         }
       ],
-      "type": null,
-      "resolution": 96,
-      "importIndex": 0,
-      "partName": "M4_BaseQtr"
+      "allConnectors": [],
+      "fileTypeVersion": 1
     }
   ],
   "allConnectors": [
@@ -728,9 +742,9 @@
       "ap2ID": "id-20"
     },
     {
-      "ap2Name": "Shape 1",
-      "ap1ID": "id-16",
-      "ap2ID": "id-107"
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-107",
+      "ap2ID": "id-2"
     },
     {
       "ap2Name": "Shape 2",
@@ -741,11 +755,6 @@
       "ap2Name": "geometry",
       "ap1ID": "id-25",
       "ap2ID": "id-112"
-    },
-    {
-      "ap2Name": "number or geometry",
-      "ap1ID": "id-107",
-      "ap2ID": "id-2"
     }
   ],
   "unitsKey": "MM",
