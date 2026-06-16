@@ -193,8 +193,8 @@
     },
     {
       "atomType": "Export",
-      "x": 0.6406109613656783,
-      "y": 0.7990762124711317,
+      "x": 0.6343216531895778,
+      "y": 0.7944572748267898,
       "uniqueID": "id-431",
       "ioValues": [
         {
@@ -212,14 +212,14 @@
         },
         {
           "name": "Part Name",
-          "ioValue": "MotorSpacer",
-          "currentEquation": "MotorSpacer"
+          "ioValue": "SupportBrace",
+          "currentEquation": "SupportBrace"
         }
       ],
       "type": null,
       "resolution": 96,
       "importIndex": 0,
-      "partName": "MotorSpacer"
+      "partName": "SupportBrace"
     },
     {
       "atomType": "Molecule",
@@ -2928,6 +2928,48 @@
           "ioValue": null
         }
       ]
+    },
+    {
+      "atomType": "Rotate",
+      "x": 0.261455525606469,
+      "y": 0.9630484988452656,
+      "uniqueID": "id-1404",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "x-axis degrees",
+          "ioValue": 0,
+          "currentEquation": "0"
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 0,
+          "currentEquation": "0"
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 180
+        }
+      ]
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.36298292902066487,
+      "y": 0.9076212471131639,
+      "uniqueID": "id-1410",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": null
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -2967,9 +3009,14 @@
       "ap2ID": "id-431"
     },
     {
-      "ap2Name": "remove",
+      "ap2Name": "geometry",
       "ap1ID": "id-425",
-      "ap2ID": "id-410"
+      "ap2ID": "id-1404"
+    },
+    {
+      "ap2Name": "Shape 1",
+      "ap1ID": "id-425",
+      "ap2ID": "id-1410"
     },
     {
       "ap2Name": "retain",
@@ -2999,6 +3046,16 @@
     {
       "ap2Name": "retain",
       "ap1ID": "id-1382",
+      "ap2ID": "id-410"
+    },
+    {
+      "ap2Name": "Shape 2",
+      "ap1ID": "id-1404",
+      "ap2ID": "id-1410"
+    },
+    {
+      "ap2Name": "remove",
+      "ap1ID": "id-1410",
       "ap2ID": "id-410"
     }
   ],
