@@ -2957,8 +2957,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.3836477987421384,
-      "y": 0.8752886836027713,
+      "x": 0.38095238095238093,
+      "y": 0.8729792147806004,
       "uniqueID": "id-1410",
       "ioValues": [
         {
@@ -2968,22 +2968,67 @@
         {
           "name": "Shape 2",
           "ioValue": null
+        },
+        {
+          "name": "Shape 3",
+          "ioValue": null
         }
       ]
     },
     {
       "atomType": "Rectangle",
-      "x": 0.8490566037735848,
-      "y": 0.6928406466512702,
+      "x": 0.07367475292003595,
+      "y": 0.9422632794457275,
       "uniqueID": "id-1415",
       "ioValues": [
         {
           "name": "x length",
-          "ioValue": 100
+          "ioValue": 300
         },
         {
           "name": "y length",
-          "ioValue": 10
+          "ioValue": 150
+        }
+      ]
+    },
+    {
+      "atomType": "Extrude",
+      "x": 0.18238993710691825,
+      "y": 0.9491916859122402,
+      "uniqueID": "id-1419",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "height",
+          "ioValue": 20
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.27403414195867026,
+      "y": 0.9445727482678984,
+      "uniqueID": "id-1429",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 0,
+          "currentEquation": "0"
+        },
+        {
+          "name": "yDist",
+          "ioValue": 75
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
         }
       ]
     }
@@ -3073,6 +3118,21 @@
       "ap2Name": "remove",
       "ap1ID": "id-1410",
       "ap2ID": "id-410"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-1415",
+      "ap2ID": "id-1419"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-1419",
+      "ap2ID": "id-1429"
+    },
+    {
+      "ap2Name": "Shape 3",
+      "ap1ID": "id-1429",
+      "ap2ID": "id-1410"
     }
   ],
   "unitsKey": "MM",
