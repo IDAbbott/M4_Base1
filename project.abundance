@@ -106,8 +106,8 @@
     },
     {
       "atomType": "Export",
-      "x": 0.6864330637915544,
-      "y": 0.3787528868360277,
+      "x": 0.6945193171608266,
+      "y": 0.3764434180138568,
       "uniqueID": "id-112",
       "ioValues": [
         {
@@ -976,8 +976,8 @@
         },
         {
           "atomType": "Equation",
-          "x": 0.5220125786163522,
-          "y": 0.302540415704388,
+          "x": 0.5840071877807727,
+          "y": 0.2517321016166282,
           "uniqueID": "id-449",
           "name": "x + y",
           "ioValues": [
@@ -994,19 +994,55 @@
         },
         {
           "atomType": "Constant",
-          "x": 0.35399820305480684,
-          "y": 0.2517321016166282,
+          "x": 0.5112309074573226,
+          "y": 0.053117782909930716,
           "uniqueID": "id-453",
           "name": "MotorDist1",
           "value": 95
         },
         {
           "atomType": "Constant",
-          "x": 0.3557951482479784,
-          "y": 0.3556581986143187,
+          "x": 0.4573225516621743,
+          "y": 0.19168591224018475,
           "uniqueID": "id-455",
           "name": "MotorDist2",
           "value": 31
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.48607367475292,
+          "y": 0.3348729792147806,
+          "uniqueID": "id-457",
+          "name": "x /  y",
+          "ioValues": [
+            {
+              "name": "x",
+              "ioValue": 31
+            },
+            {
+              "name": "y",
+              "ioValue": 2
+            }
+          ],
+          "currentEquation": "x /  y"
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.5238095238095238,
+          "y": 0.39953810623556585,
+          "uniqueID": "id-461",
+          "name": "x * y",
+          "ioValues": [
+            {
+              "name": "x",
+              "ioValue": 15.5
+            },
+            {
+              "name": "y",
+              "ioValue": -1
+            }
+          ],
+          "currentEquation": "x * y"
         }
       ],
       "allConnectors": [
@@ -1114,6 +1150,36 @@
           "ap2Name": "y",
           "ap1ID": "id-455",
           "ap2ID": "id-449"
+        },
+        {
+          "ap2Name": "x",
+          "ap1ID": "id-455",
+          "ap2ID": "id-457"
+        },
+        {
+          "ap2Name": "yDist",
+          "ap1ID": "id-457",
+          "ap2ID": "id-320"
+        },
+        {
+          "ap2Name": "yDist",
+          "ap1ID": "id-457",
+          "ap2ID": "id-342"
+        },
+        {
+          "ap2Name": "x",
+          "ap1ID": "id-457",
+          "ap2ID": "id-461"
+        },
+        {
+          "ap2Name": "yDist",
+          "ap1ID": "id-461",
+          "ap2ID": "id-336"
+        },
+        {
+          "ap2Name": "yDist",
+          "ap1ID": "id-461",
+          "ap2ID": "id-348"
         }
       ],
       "fileTypeVersion": 1
