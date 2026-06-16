@@ -135,6 +135,92 @@
       "partName": "M4_BaseQtr"
     },
     {
+      "atomType": "Difference",
+      "x": 0.5363881401617251,
+      "y": 0.5196304849884527,
+      "uniqueID": "id-332",
+      "ioValues": [
+        {
+          "name": "retain",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "remove",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
+    },
+    {
+      "atomType": "Difference",
+      "x": 0.5094339622641509,
+      "y": 0.815242494226328,
+      "uniqueID": "id-410",
+      "ioValues": [
+        {
+          "name": "retain",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "remove",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "x": 0.1931716082659479,
+      "y": 0.833718244803695,
+      "uniqueID": "id-425",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": 0
+        },
+        {
+          "name": "zDist",
+          "ioValue": 15
+        }
+      ]
+    },
+    {
+      "atomType": "Export",
+      "x": 0.6406109613656783,
+      "y": 0.7990762124711317,
+      "uniqueID": "id-431",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "File Type",
+          "ioValue": "STEP",
+          "currentEquation": "STEP"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "MotorSpacer",
+          "currentEquation": "MotorSpacer"
+        }
+      ],
+      "type": null,
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "MotorSpacer"
+    },
+    {
       "atomType": "Molecule",
       "x": 0.14285714285714285,
       "y": 0.4665127020785219,
@@ -286,18 +372,19 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 120
+              "ioValue": 80,
+              "currentEquation": "80"
             },
             {
               "name": "y length",
-              "ioValue": 4
+              "ioValue": 6
             }
           ]
         },
         {
           "atomType": "Move",
-          "x": 0.36028751123090746,
-          "y": 0.7297921478060047,
+          "x": 0.35489667565139266,
+          "y": 0.7228637413394918,
           "uniqueID": "id-75",
           "ioValues": [
             {
@@ -306,11 +393,12 @@
             },
             {
               "name": "xDist",
-              "ioValue": 125
+              "ioValue": 105
             },
             {
               "name": "yDist",
-              "ioValue": 0
+              "ioValue": 0,
+              "currentEquation": "0"
             },
             {
               "name": "zDist",
@@ -342,7 +430,7 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 130
+              "ioValue": 100
             },
             {
               "name": "y length",
@@ -378,11 +466,12 @@
             },
             {
               "name": "xDist",
-              "ioValue": 115
+              "ioValue": 100
             },
             {
               "name": "yDist",
-              "ioValue": 0
+              "ioValue": 0,
+              "currentEquation": "0"
             },
             {
               "name": "zDist",
@@ -570,8 +659,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             },
             {
               "name": "yDist",
@@ -715,8 +803,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.1473495058400719,
-      "y": 0.6697459584295612,
+      "x": 0.0853548966756514,
+      "y": 0.7759815242494226,
       "uniqueID": "id-267",
       "name": "MotorHoles",
       "topLevel": false,
@@ -965,8 +1053,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             },
             {
               "name": "zDist",
@@ -1185,25 +1272,9 @@
       "fileTypeVersion": 1
     },
     {
-      "atomType": "Difference",
-      "x": 0.5363881401617251,
-      "y": 0.5196304849884527,
-      "uniqueID": "id-332",
-      "ioValues": [
-        {
-          "name": "retain",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "remove",
-          "ioValue": "__GEOMETRY_INPUT__"
-        }
-      ]
-    },
-    {
       "atomType": "Molecule",
-      "x": 0.14285714285714285,
-      "y": 0.9653579676674365,
+      "x": 0.38095238095238093,
+      "y": 0.6674364896073902,
       "uniqueID": "id-366",
       "name": "MotorSpacer",
       "topLevel": false,
@@ -1356,8 +1427,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             },
             {
               "name": "zDist",
@@ -1445,74 +1515,28 @@
       "fileTypeVersion": 1
     },
     {
-      "atomType": "Difference",
-      "x": 0.5094339622641509,
-      "y": 0.815242494226328,
-      "uniqueID": "id-410",
-      "ioValues": [
+      "atomType": "Molecule",
+      "x": 0.1293800539083558,
+      "y": 0.5889145496535797,
+      "uniqueID": "id-689",
+      "name": "Molecule",
+      "topLevel": false,
+      "allAtoms": [
         {
-          "name": "retain",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "remove",
-          "ioValue": "__GEOMETRY_INPUT__"
-        }
-      ]
-    },
-    {
-      "atomType": "Move",
-      "x": 0.21653189577717882,
-      "y": 0.7159353348729792,
-      "uniqueID": "id-425",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "xDist",
-          "ioValue": 0
-        },
-        {
-          "name": "yDist",
-          "ioValue": 0
-        },
-        {
-          "name": "zDist",
-          "ioValue": 15
-        }
-      ]
-    },
-    {
-      "atomType": "Export",
-      "x": 0.6406109613656783,
-      "y": 0.7990762124711317,
-      "uniqueID": "id-431",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "File Type",
-          "ioValue": "STEP",
-          "currentEquation": "STEP"
-        },
-        {
-          "name": "Resolution (dpi)",
-          "ioValue": 96
-        },
-        {
-          "name": "Part Name",
-          "ioValue": "MotorSpacer",
-          "currentEquation": "MotorSpacer"
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-691",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
         }
       ],
-      "type": null,
-      "resolution": 96,
-      "importIndex": 0,
-      "partName": "MotorSpacer"
+      "allConnectors": [],
+      "fileTypeVersion": 1
     }
   ],
   "allConnectors": [
@@ -1537,6 +1561,26 @@
       "ap2ID": "id-20"
     },
     {
+      "ap2Name": "geometry",
+      "ap1ID": "id-332",
+      "ap2ID": "id-112"
+    },
+    {
+      "ap2Name": "number or geometry",
+      "ap1ID": "id-332",
+      "ap2ID": "id-2"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-410",
+      "ap2ID": "id-431"
+    },
+    {
+      "ap2Name": "remove",
+      "ap1ID": "id-425",
+      "ap2ID": "id-410"
+    },
+    {
       "ap2Name": "retain",
       "ap1ID": "id-25",
       "ap2ID": "id-332"
@@ -1552,28 +1596,8 @@
       "ap2ID": "id-425"
     },
     {
-      "ap2Name": "geometry",
-      "ap1ID": "id-332",
-      "ap2ID": "id-112"
-    },
-    {
-      "ap2Name": "number or geometry",
-      "ap1ID": "id-332",
-      "ap2ID": "id-2"
-    },
-    {
       "ap2Name": "retain",
       "ap1ID": "id-366",
-      "ap2ID": "id-410"
-    },
-    {
-      "ap2Name": "geometry",
-      "ap1ID": "id-410",
-      "ap2ID": "id-431"
-    },
-    {
-      "ap2Name": "remove",
-      "ap1ID": "id-425",
       "ap2ID": "id-410"
     }
   ],
