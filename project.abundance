@@ -1165,8 +1165,8 @@
         },
         {
           "atomType": "Difference",
-          "x": 0.39532794249775377,
-          "y": 0.4457274826789838,
+          "x": 0.5633423180592991,
+          "y": 0.4665127020785219,
           "uniqueID": "id-389",
           "ioValues": [
             {
@@ -1180,26 +1180,69 @@
           ]
         },
         {
-          "atomType": "Rotate",
-          "x": 0.5624438454627134,
-          "y": 0.489607390300231,
-          "uniqueID": "id-393",
+          "atomType": "Circle",
+          "x": 0.18418688230008984,
+          "y": 0.17321016166281755,
+          "uniqueID": "id-399",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 50
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.2841868823000898,
+          "y": 0.17321016166281755,
+          "uniqueID": "id-402",
           "ioValues": [
             {
               "name": "geometry",
               "ioValue": "__GEOMETRY_INPUT__"
             },
             {
-              "name": "x-axis degrees",
-              "ioValue": 180
+              "name": "height",
+              "ioValue": 10
+            }
+          ]
+        },
+        {
+          "atomType": "Intersection",
+          "x": 0.43306379155435765,
+          "y": 0.17782909930715934,
+          "uniqueID": "id-406",
+          "ioValues": [
+            {
+              "name": "geometry1",
+              "ioValue": "__GEOMETRY_INPUT__"
             },
             {
-              "name": "y-axis degrees",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "name": "geometry2",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.7349505840071878,
+          "y": 0.47344110854503463,
+          "uniqueID": "id-414",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
             },
             {
-              "name": "z-axis degrees",
+              "name": "xDist",
+              "ioValue": 100
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
               "ioValue": 0
             }
           ]
@@ -1212,9 +1255,9 @@
           "ap2ID": "id-374"
         },
         {
-          "ap2Name": "retain",
+          "ap2Name": "geometry2",
           "ap1ID": "id-374",
-          "ap2ID": "id-389"
+          "ap2ID": "id-406"
         },
         {
           "ap2Name": "geometry",
@@ -1229,15 +1272,46 @@
         {
           "ap2Name": "geometry",
           "ap1ID": "id-389",
-          "ap2ID": "id-393"
+          "ap2ID": "id-414"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-399",
+          "ap2ID": "id-402"
+        },
+        {
+          "ap2Name": "geometry1",
+          "ap1ID": "id-402",
+          "ap2ID": "id-406"
+        },
+        {
+          "ap2Name": "retain",
+          "ap1ID": "id-406",
+          "ap2ID": "id-389"
         },
         {
           "ap2Name": "number or geometry",
-          "ap1ID": "id-393",
+          "ap1ID": "id-414",
           "ap2ID": "id-368"
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Difference",
+      "x": 0.5103324348607368,
+      "y": 0.8244803695150116,
+      "uniqueID": "id-410",
+      "ioValues": [
+        {
+          "name": "retain",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "remove",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
     }
   ],
   "allConnectors": [
@@ -1272,9 +1346,19 @@
       "ap2ID": "id-332"
     },
     {
+      "ap2Name": "remove",
+      "ap1ID": "id-267",
+      "ap2ID": "id-410"
+    },
+    {
       "ap2Name": "geometry",
       "ap1ID": "id-332",
       "ap2ID": "id-112"
+    },
+    {
+      "ap2Name": "retain",
+      "ap1ID": "id-366",
+      "ap2ID": "id-410"
     }
   ],
   "unitsKey": "MM",
