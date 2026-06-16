@@ -2531,8 +2531,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.38274932614555257,
-          "y": 0.5958429561200923,
+          "x": 0.38095238095238093,
+          "y": 0.581986143187067,
           "uniqueID": "id-437",
           "ioValues": [
             {
@@ -2636,7 +2636,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 95
+              "ioValue": 90
             }
           ]
         },
@@ -2686,8 +2686,8 @@
         },
         {
           "atomType": "Difference",
-          "x": 0.43935309973045816,
-          "y": 0.2863741339491917,
+          "x": 0.610062893081761,
+          "y": 0.26558891454965355,
           "uniqueID": "id-1053",
           "ioValues": [
             {
@@ -2699,6 +2699,105 @@
               "ioValue": "__GEOMETRY_INPUT__"
             }
           ]
+        },
+        {
+          "atomType": "Circle",
+          "x": 0.18778077268643306,
+          "y": 0.7390300230946882,
+          "uniqueID": "id-1057",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 22.5
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.3045822102425876,
+          "y": 0.7274826789838337,
+          "uniqueID": "id-1058",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "height",
+              "ioValue": 10
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.4159928122192273,
+          "y": 0.7297921478060047,
+          "uniqueID": "id-1059",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 47.5
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0,
+              "currentEquation": "0"
+            },
+            {
+              "name": "zDist",
+              "ioValue": 3.5
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.42677448337825696,
+          "y": 0.584295612009238,
+          "uniqueID": "id-1070",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": -47.5,
+              "currentEquation": "-47.5"
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0,
+              "currentEquation": "0"
+            },
+            {
+              "name": "zDist",
+              "ioValue": 3.5
+            }
+          ]
+        },
+        {
+          "atomType": "Assembly",
+          "x": 0.5175202156334232,
+          "y": 0.4665127020785219,
+          "uniqueID": "id-1076",
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 3",
+              "ioValue": null
+            }
+          ]
         }
       ],
       "allConnectors": [
@@ -2708,9 +2807,9 @@
           "ap2ID": "id-1042"
         },
         {
-          "ap2Name": "remove",
+          "ap2Name": "Shape 1",
           "ap1ID": "id-1042",
-          "ap2ID": "id-1053"
+          "ap2ID": "id-1076"
         },
         {
           "ap2Name": "geometry",
@@ -2720,6 +2819,36 @@
         {
           "ap2Name": "retain",
           "ap1ID": "id-1049",
+          "ap2ID": "id-1053"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-1057",
+          "ap2ID": "id-1058"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-1058",
+          "ap2ID": "id-1059"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-1058",
+          "ap2ID": "id-1070"
+        },
+        {
+          "ap2Name": "Shape 3",
+          "ap1ID": "id-1059",
+          "ap2ID": "id-1076"
+        },
+        {
+          "ap2Name": "Shape 2",
+          "ap1ID": "id-1070",
+          "ap2ID": "id-1076"
+        },
+        {
+          "ap2Name": "remove",
+          "ap1ID": "id-1076",
           "ap2ID": "id-1053"
         }
       ],
