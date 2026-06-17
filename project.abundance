@@ -2742,8 +2742,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.20934411500449238,
-      "y": 0.45265588914549654,
+      "x": 0.20754716981132074,
+      "y": 0.4387990762124711,
       "uniqueID": "id-1035",
       "name": "SupportBrace",
       "topLevel": false,
@@ -2768,7 +2768,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 240
+              "ioValue": 210
             }
           ]
         },
@@ -2796,7 +2796,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 260
+              "ioValue": 240
             }
           ]
         },
@@ -2987,7 +2987,7 @@
             },
             {
               "name": "zDist",
-              "ioValue": 3.5
+              "ioValue": 0
             }
           ]
         },
@@ -3011,7 +3011,7 @@
             },
             {
               "name": "zDist",
-              "ioValue": 3.5
+              "ioValue": 0
             }
           ]
         },
