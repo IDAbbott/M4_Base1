@@ -125,14 +125,14 @@
         },
         {
           "name": "Part Name",
-          "ioValue": "M4_BaseQtr",
-          "currentEquation": "M4_BaseQtr"
+          "ioValue": "M4_BaseQtrFinal",
+          "currentEquation": "M4_BaseQtrFinal"
         }
       ],
       "type": null,
       "resolution": 96,
       "importIndex": 0,
-      "partName": "M4_BaseQtr"
+      "partName": "M4_BaseQtrFinal"
     },
     {
       "atomType": "Difference",
@@ -192,8 +192,8 @@
     },
     {
       "atomType": "Export",
-      "x": 0.8238993710691824,
-      "y": 0.8845265588914549,
+      "x": 0.8269927536231884,
+      "y": 0.8822170900692841,
       "uniqueID": "id-431",
       "ioValues": [
         {
@@ -211,14 +211,14 @@
         },
         {
           "name": "Part Name",
-          "ioValue": "SupportBrace",
-          "currentEquation": "SupportBrace"
+          "ioValue": "M4_SupportBraceFinal",
+          "currentEquation": "M4_SupportBraceFinal"
         }
       ],
       "type": null,
       "resolution": 96,
       "importIndex": 0,
-      "partName": "SupportBrace"
+      "partName": "M4_SupportBraceFinal"
     },
     {
       "atomType": "Assembly",
