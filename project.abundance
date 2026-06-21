@@ -125,14 +125,14 @@
         },
         {
           "name": "Part Name",
-          "ioValue": "M4_BaseQtrX",
-          "currentEquation": "M4_BaseQtrX"
+          "ioValue": "M4_BaseQtr",
+          "currentEquation": "M4_BaseQtr"
         }
       ],
       "type": null,
       "resolution": 96,
       "importIndex": 0,
-      "partName": "M4_BaseQtrX"
+      "partName": "M4_BaseQtr"
     },
     {
       "atomType": "Difference",
@@ -388,12 +388,27 @@
         },
         {
           "name": "y-axis degrees",
-          "ioValue": 0,
-          "currentEquation": "0"
+          "ioValue": 0
         },
         {
           "name": "z-axis degrees",
           "ioValue": 270
+        }
+      ]
+    },
+    {
+      "atomType": "Assembly",
+      "x": 0.7880434782608695,
+      "y": 0.4387990762124711,
+      "uniqueID": "id-2482",
+      "ioValues": [
+        {
+          "name": "Shape 1",
+          "ioValue": null
+        },
+        {
+          "name": "Shape 2",
+          "ioValue": null
         }
       ]
     },
@@ -757,8 +772,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             },
             {
               "name": "zDist",
@@ -810,8 +824,7 @@
             },
             {
               "name": "zDist",
-              "ioValue": -21,
-              "currentEquation": "-21"
+              "ioValue": -21
             }
           ]
         },
@@ -1423,8 +1436,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             },
             {
               "name": "zDist",
@@ -1448,8 +1460,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             },
             {
               "name": "zDist",
@@ -2142,14 +2153,7 @@
                 "color": "#aad7f2",
                 "tags": [],
                 "bom": [],
-                "nonReplicadSerialized": [
-                  {},
-                  {},
-                  {},
-                  {},
-                  {},
-                  {}
-                ],
+                "nonReplicadSerialized": [],
                 "boundingBox": {
                   "min": [
                     66.2499999,
@@ -3771,22 +3775,6 @@
         }
       ],
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Assembly",
-      "x": 0.7924528301886793,
-      "y": 0.42494226327944573,
-      "uniqueID": "id-2482",
-      "ioValues": [
-        {
-          "name": "Shape 1",
-          "ioValue": null
-        },
-        {
-          "name": "Shape 2",
-          "ioValue": null
-        }
-      ]
     }
   ],
   "allConnectors": [
