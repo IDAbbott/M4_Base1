@@ -3486,8 +3486,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.09883198562443844,
-      "y": 0.7598152424942263,
+      "x": 0.09782608695652174,
+      "y": 0.7621247113163973,
       "uniqueID": "id-1436",
       "name": "Halve",
       "topLevel": false,
@@ -3628,7 +3628,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": -102.5
+              "ioValue": -100
             },
             {
               "name": "zDist",
@@ -3672,7 +3672,7 @@
             {
               "name": "Shape 2",
               "ioValue": {
-                "geometry": "move-extrude-circle-5.1-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-0--102.5-0",
+                "geometry": "move-extrude-circle-5.1-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-0--100-0",
                 "dimension": "3D",
                 "tags": [],
                 "plane": {
