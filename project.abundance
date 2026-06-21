@@ -125,14 +125,14 @@
         },
         {
           "name": "Part Name",
-          "ioValue": "M4_BaseQtr",
-          "currentEquation": "M4_BaseQtr"
+          "ioValue": "M4_BaseQtrX",
+          "currentEquation": "M4_BaseQtrX"
         }
       ],
       "type": null,
       "resolution": 96,
       "importIndex": 0,
-      "partName": "M4_BaseQtr"
+      "partName": "M4_BaseQtrX"
     },
     {
       "atomType": "Difference",
@@ -753,7 +753,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": 71
+              "ioValue": 73.5
             },
             {
               "name": "yDist",
@@ -810,7 +810,8 @@
             },
             {
               "name": "zDist",
-              "ioValue": -21
+              "ioValue": -21,
+              "currentEquation": "-21"
             }
           ]
         },
@@ -2707,7 +2708,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": 100
+              "ioValue": 102.5
             },
             {
               "name": "zDist",
@@ -2755,7 +2756,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": -100
+              "ioValue": -102.5
             },
             {
               "name": "zDist",
@@ -2799,7 +2800,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": -100
+              "ioValue": -102.5
             },
             {
               "name": "yDist",
@@ -2823,7 +2824,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": 100
+              "ioValue": 102.5
             },
             {
               "name": "yDist",
