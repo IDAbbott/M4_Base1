@@ -222,8 +222,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.42677448337825696,
-      "y": 0.4503464203233256,
+      "x": 0.4266304347826087,
+      "y": 0.44110854503464203,
       "uniqueID": "id-1382",
       "ioValues": [
         {
@@ -334,8 +334,8 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.6208445642407906,
-      "y": 0.7297921478060047,
+      "x": 0.6186594202898551,
+      "y": 0.7228637413394918,
       "uniqueID": "id-1502",
       "ioValues": [
         {
@@ -1357,16 +1357,16 @@
         },
         {
           "atomType": "Constant",
-          "x": 0.5112309074573226,
-          "y": 0.053117782909930716,
+          "x": 0.4384057971014493,
+          "y": 0.07390300230946882,
           "uniqueID": "id-453",
           "name": "MotorDist1",
           "value": 86.5
         },
         {
           "atomType": "Constant",
-          "x": 0.4573225516621743,
-          "y": 0.19168591224018475,
+          "x": 0.3867753623188406,
+          "y": 0.22632794457274827,
           "uniqueID": "id-455",
           "name": "MotorDist2",
           "value": 31
@@ -1434,7 +1434,7 @@
         },
         {
           "atomType": "Move",
-          "x": 0.7178796046720575,
+          "x": 0.720108695652174,
           "y": 0.7321016166281755,
           "uniqueID": "id-716",
           "ioValues": [
@@ -3586,8 +3586,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.4255615453728661,
-          "y": 0.7790993071593533,
+          "x": 0.4266304347826087,
+          "y": 0.766743648960739,
           "uniqueID": "id-1548",
           "ioValues": [
             {
@@ -3600,7 +3600,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": 100
+              "ioValue": 102.5
             },
             {
               "name": "zDist",
@@ -3624,7 +3624,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": -100
+              "ioValue": -102.5
             },
             {
               "name": "zDist",
@@ -3668,7 +3668,7 @@
             {
               "name": "Shape 2",
               "ioValue": {
-                "geometry": "move-extrude-circle-5.1-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-0--100-0",
+                "geometry": "move-extrude-circle-5.1-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-0--102.5-0",
                 "dimension": "3D",
                 "tags": [],
                 "plane": {
@@ -3695,7 +3695,7 @@
             {
               "name": "Shape 3",
               "ioValue": {
-                "geometry": "move-extrude-circle-5.1-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-0-100-0",
+                "geometry": "move-extrude-circle-5.1-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-10-0-102.5-0",
                 "dimension": "3D",
                 "tags": [],
                 "plane": {
