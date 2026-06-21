@@ -1092,8 +1092,8 @@
       "allAtoms": [
         {
           "atomType": "Output",
-          "x": 0.98,
-          "y": 0.5,
+          "x": 0.9746376811594203,
+          "y": 0.5011547344110855,
           "uniqueID": "id-269",
           "ioValues": [
             {
@@ -2370,6 +2370,72 @@
               "ioValue": 8
             }
           ]
+        },
+        {
+          "atomType": "Import",
+          "x": 0.09420289855072464,
+          "y": 0.8660508083140878,
+          "uniqueID": "id-2934",
+          "fileName": "Offset Turtle Clamp 1.2 Anticlockwise.stl",
+          "name": "Import",
+          "type": "STL",
+          "repoOwner": "IDAbbott",
+          "repoName": "M4_Base1",
+          "SVGwidth": 10
+        },
+        {
+          "atomType": "Move",
+          "x": 0.19655797101449274,
+          "y": 0.8568129330254042,
+          "uniqueID": "id-2936",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Export",
+          "x": 0.2980072463768116,
+          "y": 0.8660508083140878,
+          "uniqueID": "id-2943",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "File Type",
+              "ioValue": "SVG",
+              "currentEquation": "SVG"
+            },
+            {
+              "name": "Resolution (dpi)",
+              "ioValue": 96
+            },
+            {
+              "name": "Part Name",
+              "ioValue": "MotorHoles",
+              "currentEquation": "MotorHoles"
+            }
+          ],
+          "type": "SVG",
+          "resolution": 96,
+          "importIndex": 0,
+          "partName": "MotorHoles"
         }
       ],
       "allConnectors": [
@@ -2552,6 +2618,16 @@
           "ap2Name": "Shape 3",
           "ap1ID": "id-766",
           "ap2ID": "id-755"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-2934",
+          "ap2ID": "id-2936"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-2936",
+          "ap2ID": "id-2943"
         }
       ],
       "fileTypeVersion": 1
