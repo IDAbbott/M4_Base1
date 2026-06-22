@@ -3862,8 +3862,8 @@
       "allAtoms": [
         {
           "atomType": "Output",
-          "x": 0.98,
-          "y": 0.5,
+          "x": 0.9737318840579711,
+          "y": 0.4988452655889145,
           "uniqueID": "id-2936",
           "ioValues": [
             {
@@ -4177,8 +4177,8 @@
         },
         {
           "atomType": "Assembly",
-          "x": 0.40398550724637683,
-          "y": 0.8614318706697459,
+          "x": 0.41032608695652173,
+          "y": 0.8660508083140878,
           "uniqueID": "id-3090",
           "ioValues": [
             {
@@ -4426,9 +4426,54 @@
             },
             {
               "name": "zDist",
-              "ioValue": 310
+              "ioValue": 305
             }
           ]
+        },
+        {
+          "atomType": "Difference",
+          "x": 0.7391304347826086,
+          "y": 0.3279445727482679,
+          "uniqueID": "id-3731",
+          "ioValues": [
+            {
+              "name": "retain",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "remove",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Export",
+          "x": 0.9547101449275363,
+          "y": 0.3163972286374134,
+          "uniqueID": "id-3749",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "File Type",
+              "ioValue": "STEP",
+              "currentEquation": "STEP"
+            },
+            {
+              "name": "Resolution (dpi)",
+              "ioValue": 96
+            },
+            {
+              "name": "Part Name",
+              "ioValue": ""
+            }
+          ],
+          "type": null,
+          "resolution": 96,
+          "importIndex": 0,
+          "partName": ""
         }
       ],
       "allConnectors": [
@@ -4508,11 +4553,6 @@
           "ap2ID": "id-3090"
         },
         {
-          "ap2Name": "number or geometry",
-          "ap1ID": "id-3039",
-          "ap2ID": "id-2936"
-        },
-        {
           "ap2Name": "geometry",
           "ap1ID": "id-3043",
           "ap2ID": "id-2985"
@@ -4531,6 +4571,11 @@
           "ap2Name": "remove",
           "ap1ID": "id-3090",
           "ap2ID": "id-3039"
+        },
+        {
+          "ap2Name": "remove",
+          "ap1ID": "id-3090",
+          "ap2ID": "id-3731"
         },
         {
           "ap2Name": "Shape 1",
@@ -4583,6 +4628,11 @@
           "ap2ID": "id-3039"
         },
         {
+          "ap2Name": "retain",
+          "ap1ID": "id-3707",
+          "ap2ID": "id-3731"
+        },
+        {
           "ap2Name": "geometry",
           "ap1ID": "id-3712",
           "ap2ID": "id-3715"
@@ -4596,6 +4646,11 @@
           "ap2Name": "Shape 3",
           "ap1ID": "id-3719",
           "ap2ID": "id-3707"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-3731",
+          "ap2ID": "id-2936"
         }
       ],
       "fileTypeVersion": 1
