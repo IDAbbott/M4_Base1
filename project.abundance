@@ -3974,10 +3974,6 @@
             {
               "name": "Shape 3",
               "ioValue": null
-            },
-            {
-              "name": "Shape 4",
-              "ioValue": null
             }
           ]
         },
@@ -3989,7 +3985,7 @@
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 90
+              "ioValue": 150
             },
             {
               "name": "y length",
@@ -4040,8 +4036,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.408695652173913,
-          "y": 0.7274826789838337,
+          "x": 0.41213768115942034,
+          "y": 0.7367205542725173,
           "uniqueID": "id-3014",
           "ioValues": [
             {
@@ -4050,7 +4046,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": 165
+              "ioValue": 135
             },
             {
               "name": "yDist",
@@ -4108,7 +4104,8 @@
             },
             {
               "name": "yDist",
-              "ioValue": 0
+              "ioValue": 0,
+              "currentEquation": "0"
             },
             {
               "name": "zDist",
@@ -4118,8 +4115,8 @@
         },
         {
           "atomType": "Difference",
-          "x": 0.43115942028985504,
-          "y": 0.8775981524249422,
+          "x": 0.7083333333333333,
+          "y": 0.6789838337182448,
           "uniqueID": "id-3039",
           "ioValues": [
             {
@@ -4175,9 +4172,9 @@
           "ap2ID": "id-2995"
         },
         {
-          "ap2Name": "number or geometry",
+          "ap2Name": "retain",
           "ap1ID": "id-2995",
-          "ap2ID": "id-2936"
+          "ap2ID": "id-3039"
         },
         {
           "ap2Name": "geometry",
@@ -4210,14 +4207,14 @@
           "ap2ID": "id-3028"
         },
         {
-          "ap2Name": "retain",
+          "ap2Name": "remove",
           "ap1ID": "id-3028",
           "ap2ID": "id-3039"
         },
         {
-          "ap2Name": "Shape 4",
+          "ap2Name": "number or geometry",
           "ap1ID": "id-3039",
-          "ap2ID": "id-2995"
+          "ap2ID": "id-2936"
         }
       ],
       "fileTypeVersion": 1
@@ -4249,8 +4246,8 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.43387681159420294,
-      "y": 0.8868360277136258,
+      "x": 0.43931159420289856,
+      "y": 0.8937644341801385,
       "uniqueID": "id-2963",
       "ioValues": [
         {
