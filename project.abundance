@@ -3834,8 +3834,8 @@
         },
         {
           "atomType": "Rectangle",
-          "x": 0.09692028985507246,
-          "y": 0.325635103926097,
+          "x": 0.09873188405797102,
+          "y": 0.16166281755196305,
           "uniqueID": "id-2938",
           "ioValues": [
             {
@@ -3890,8 +3890,8 @@
         },
         {
           "atomType": "Circle",
-          "x": 0.09057971014492755,
-          "y": 0.5011547344110855,
+          "x": 0.09782608695652174,
+          "y": 0.30484988452655887,
           "uniqueID": "id-2978",
           "ioValues": [
             {
@@ -3902,8 +3902,8 @@
         },
         {
           "atomType": "Intersection",
-          "x": 0.19836956521739132,
-          "y": 0.44803695150115475,
+          "x": 0.21648550724637683,
+          "y": 0.2748267898383372,
           "uniqueID": "id-2981",
           "ioValues": [
             {
@@ -3918,8 +3918,8 @@
         },
         {
           "atomType": "Extrude",
-          "x": 0.30344202898550726,
-          "y": 0.5889145496535797,
+          "x": 0.31431159420289856,
+          "y": 0.4919168591224019,
           "uniqueID": "id-2985",
           "ioValues": [
             {
@@ -3928,7 +3928,7 @@
             },
             {
               "name": "height",
-              "ioValue": 200
+              "ioValue": 310
             }
           ]
         },
@@ -4128,6 +4128,55 @@
               "ioValue": "__GEOMETRY_INPUT__"
             }
           ]
+        },
+        {
+          "atomType": "Rectangle",
+          "x": 0.02807971014492754,
+          "y": 0.4226327944572748,
+          "uniqueID": "id-3043",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 6
+            },
+            {
+              "name": "y length",
+              "ioValue": 40,
+              "currentEquation": "40"
+            }
+          ]
+        },
+        {
+          "atomType": "Rectangle",
+          "x": 0.027173913043478264,
+          "y": 0.5334872979214781,
+          "uniqueID": "id-3047",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 40
+            },
+            {
+              "name": "y length",
+              "ioValue": 6
+            }
+          ]
+        },
+        {
+          "atomType": "Assembly",
+          "x": 0.125,
+          "y": 0.47113163972286376,
+          "uniqueID": "id-3051",
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": null
+            }
+          ]
         }
       ],
       "allConnectors": [
@@ -4215,6 +4264,16 @@
           "ap2Name": "number or geometry",
           "ap1ID": "id-3039",
           "ap2ID": "id-2936"
+        },
+        {
+          "ap2Name": "Shape 1",
+          "ap1ID": "id-3043",
+          "ap2ID": "id-3051"
+        },
+        {
+          "ap2Name": "Shape 2",
+          "ap1ID": "id-3047",
+          "ap2ID": "id-3051"
         }
       ],
       "fileTypeVersion": 1
