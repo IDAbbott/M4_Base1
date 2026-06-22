@@ -20,8 +20,8 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.21743036837376462,
-      "y": 0.15473441108545033,
+      "x": 0.2182971014492754,
+      "y": 0.10392609699769054,
       "uniqueID": "id-6",
       "ioValues": [
         {
@@ -32,8 +32,8 @@
     },
     {
       "atomType": "Circle",
-      "x": 0.18957771787960465,
-      "y": 0.24942263279445726,
+      "x": 0.19836956521739132,
+      "y": 0.21478060046189376,
       "uniqueID": "id-9",
       "ioValues": [
         {
@@ -454,8 +454,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.21648550724637683,
-      "y": 0.3140877598152425,
+      "x": 0.2182971014492754,
+      "y": 0.2956120092378753,
       "uniqueID": "id-25",
       "name": "M4_BaseQtr",
       "topLevel": false,
@@ -480,7 +480,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 99
+              "ioValue": 99.5
             }
           ]
         },
@@ -2193,14 +2193,7 @@
                 "color": "#aad7f2",
                 "tags": [],
                 "bom": [],
-                "nonReplicadSerialized": [
-                  {},
-                  {},
-                  {},
-                  {},
-                  {},
-                  {}
-                ],
+                "nonReplicadSerialized": [],
                 "boundingBox": {
                   "min": [
                     66.2499999,
@@ -3916,8 +3909,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": 100,
-              "currentEquation": "100"
+              "ioValue": 100
             },
             {
               "name": "yDist",
@@ -4161,13 +4153,11 @@
             },
             {
               "name": "xDist",
-              "ioValue": 100,
-              "currentEquation": "100"
+              "ioValue": 100
             },
             {
               "name": "yDist",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             },
             {
               "name": "zDist",
@@ -4207,8 +4197,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             },
             {
               "name": "zDist",
@@ -4264,8 +4253,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             },
             {
               "name": "zDist",
@@ -4393,8 +4381,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             },
             {
               "name": "zDist",
@@ -4459,7 +4446,8 @@
             },
             {
               "name": "Part Name",
-              "ioValue": ""
+              "ioValue": "",
+              "currentEquation": "Support"
             }
           ],
           "type": null,
