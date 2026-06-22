@@ -3256,8 +3256,8 @@
         },
         {
           "atomType": "Extrude",
-          "x": 0.25067385444743934,
-          "y": 0.16859122401847573,
+          "x": 0.25181159420289856,
+          "y": 0.17551963048498845,
           "uniqueID": "id-1510",
           "ioValues": [
             {
@@ -3834,17 +3834,17 @@
         },
         {
           "atomType": "Rectangle",
-          "x": 0.22282608695652173,
-          "y": 0.3510392609699769,
+          "x": 0.09692028985507246,
+          "y": 0.325635103926097,
           "uniqueID": "id-2938",
           "ioValues": [
             {
               "name": "x length",
-              "ioValue": 40
+              "ioValue": 45
             },
             {
               "name": "y length",
-              "ioValue": 40
+              "ioValue": 45
             }
           ]
         },
@@ -3887,13 +3887,97 @@
               "ioValue": 0
             }
           ]
+        },
+        {
+          "atomType": "Circle",
+          "x": 0.09057971014492755,
+          "y": 0.5011547344110855,
+          "uniqueID": "id-2978",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 55
+            }
+          ]
+        },
+        {
+          "atomType": "Intersection",
+          "x": 0.19836956521739132,
+          "y": 0.44803695150115475,
+          "uniqueID": "id-2981",
+          "ioValues": [
+            {
+              "name": "geometry1",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "geometry2",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.30344202898550726,
+          "y": 0.5889145496535797,
+          "uniqueID": "id-2985",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "height",
+              "ioValue": 200
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.4034420289855073,
+          "y": 0.5889145496535797,
+          "uniqueID": "id-2989",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 0
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 0
+            }
+          ]
+        },
+        {
+          "atomType": "Assembly",
+          "x": 0.5806159420289855,
+          "y": 0.4919168591224019,
+          "uniqueID": "id-2995",
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": null
+            }
+          ]
         }
       ],
       "allConnectors": [
         {
-          "ap2Name": "geometry",
+          "ap2Name": "geometry1",
           "ap1ID": "id-2938",
-          "ap2ID": "id-2942"
+          "ap2ID": "id-2981"
         },
         {
           "ap2Name": "geometry",
@@ -3901,8 +3985,38 @@
           "ap2ID": "id-2946"
         },
         {
-          "ap2Name": "number or geometry",
+          "ap2Name": "Shape 1",
           "ap1ID": "id-2946",
+          "ap2ID": "id-2995"
+        },
+        {
+          "ap2Name": "geometry2",
+          "ap1ID": "id-2978",
+          "ap2ID": "id-2981"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-2981",
+          "ap2ID": "id-2942"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-2981",
+          "ap2ID": "id-2985"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-2985",
+          "ap2ID": "id-2989"
+        },
+        {
+          "ap2Name": "Shape 2",
+          "ap1ID": "id-2989",
+          "ap2ID": "id-2995"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-2995",
           "ap2ID": "id-2936"
         }
       ],
