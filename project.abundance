@@ -5059,7 +5059,7 @@
             },
             {
               "name": "height",
-              "ioValue": 10
+              "ioValue": 5
             }
           ]
         }
@@ -5074,11 +5074,6 @@
           "ap2Name": "Shape 1",
           "ap1ID": "id-4367",
           "ap2ID": "id-4383"
-        },
-        {
-          "ap2Name": "number or geometry",
-          "ap1ID": "id-4370",
-          "ap2ID": "id-4362"
         },
         {
           "ap2Name": "geometry",
@@ -5124,9 +5119,44 @@
           "ap2Name": "Shape 3",
           "ap1ID": "id-4400",
           "ap2ID": "id-4383"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-4407",
+          "ap2ID": "id-4362"
         }
       ],
       "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Export",
+      "x": 0.6090497737556562,
+      "y": 0.9052631578947369,
+      "uniqueID": "id-4411",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "File Type",
+          "ioValue": "STEP",
+          "currentEquation": "STEP"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "InnerRing",
+          "currentEquation": "InnerRing"
+        }
+      ],
+      "type": null,
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "InnerRing"
     }
   ],
   "allConnectors": [
@@ -5284,6 +5314,11 @@
       "ap2Name": "Shape 3",
       "ap1ID": "id-4360",
       "ap2ID": "id-2482"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-4360",
+      "ap2ID": "id-4411"
     }
   ],
   "unitsKey": "MM",
