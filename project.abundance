@@ -2193,7 +2193,14 @@
                 "color": "#aad7f2",
                 "tags": [],
                 "bom": [],
-                "nonReplicadSerialized": [],
+                "nonReplicadSerialized": [
+                  {},
+                  {},
+                  {},
+                  {},
+                  {},
+                  {}
+                ],
                 "boundingBox": {
                   "min": [
                     66.2499999,
