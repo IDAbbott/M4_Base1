@@ -262,8 +262,8 @@
     },
     {
       "atomType": "Assembly",
-      "x": 0.49955076370170703,
-      "y": 0.6096997690531177,
+      "x": 0.4877828054298643,
+      "y": 0.5368421052631579,
       "uniqueID": "id-1410",
       "ioValues": [
         {
@@ -334,8 +334,8 @@
     },
     {
       "atomType": "Difference",
-      "x": 0.6186594202898551,
-      "y": 0.7228637413394918,
+      "x": 0.6212669683257919,
+      "y": 0.5726315789473684,
       "uniqueID": "id-1502",
       "ioValues": [
         {
@@ -455,6 +455,36 @@
           "ioValue": "__GEOMETRY_INPUT__"
         }
       ]
+    },
+    {
+      "atomType": "Export",
+      "x": 0.6090497737556562,
+      "y": 0.9052631578947369,
+      "uniqueID": "id-4411",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "File Type",
+          "ioValue": "STEP",
+          "currentEquation": "STEP"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "InnerRing",
+          "currentEquation": "InnerRing"
+        }
+      ],
+      "type": null,
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "InnerRing"
     },
     {
       "atomType": "Molecule",
@@ -632,8 +662,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             },
             {
               "name": "zDist",
@@ -705,8 +734,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             },
             {
               "name": "zDist",
@@ -946,8 +974,7 @@
             },
             {
               "name": "zDist",
-              "ioValue": 6,
-              "currentEquation": "6"
+              "ioValue": 6
             }
           ]
         },
@@ -2200,14 +2227,7 @@
                 "color": "#aad7f2",
                 "tags": [],
                 "bom": [],
-                "nonReplicadSerialized": [
-                  {},
-                  {},
-                  {},
-                  {},
-                  {},
-                  {}
-                ],
+                "nonReplicadSerialized": [],
                 "boundingBox": {
                   "min": [
                     80.2499999,
@@ -2621,8 +2641,7 @@
             },
             {
               "name": "zDist",
-              "ioValue": 8,
-              "currentEquation": "8"
+              "ioValue": 8
             }
           ]
         },
@@ -2638,8 +2657,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": 40,
-              "currentEquation": "40"
+              "ioValue": 40
             },
             {
               "name": "yDist",
@@ -5038,8 +5056,7 @@
             },
             {
               "name": "y-axis degrees",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             },
             {
               "name": "z-axis degrees",
@@ -5127,36 +5144,6 @@
         }
       ],
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Export",
-      "x": 0.6090497737556562,
-      "y": 0.9052631578947369,
-      "uniqueID": "id-4411",
-      "ioValues": [
-        {
-          "name": "geometry",
-          "ioValue": "__GEOMETRY_INPUT__"
-        },
-        {
-          "name": "File Type",
-          "ioValue": "STEP",
-          "currentEquation": "STEP"
-        },
-        {
-          "name": "Resolution (dpi)",
-          "ioValue": 96
-        },
-        {
-          "name": "Part Name",
-          "ioValue": "InnerRing",
-          "currentEquation": "InnerRing"
-        }
-      ],
-      "type": null,
-      "resolution": 96,
-      "importIndex": 0,
-      "partName": "InnerRing"
     }
   ],
   "allConnectors": [
