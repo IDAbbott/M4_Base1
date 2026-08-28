@@ -3875,8 +3875,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": 65,
-              "currentEquation": "65"
+              "ioValue": 75
             },
             {
               "name": "zDist",
@@ -3969,7 +3968,7 @@
             {
               "name": "Shape 1",
               "ioValue": {
-                "geometry": "move-extrude-rectangle-300-150-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-0-65-0",
+                "geometry": "move-extrude-rectangle-300-150-{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]}-20-0-75-0",
                 "dimension": "3D",
                 "plane": {
                   "origin": [
@@ -4302,8 +4301,8 @@
         },
         {
           "atomType": "Circle",
-          "x": 0.03532608695652174,
-          "y": 0.8244803695150116,
+          "x": 0.03574660633484163,
+          "y": 0.8463157894736842,
           "uniqueID": "id-3021",
           "ioValues": [
             {
@@ -4330,8 +4329,8 @@
         },
         {
           "atomType": "Move",
-          "x": 0.2708333333333333,
-          "y": 0.9145496535796767,
+          "x": 0.27873303167420815,
+          "y": 0.8,
           "uniqueID": "id-3028",
           "ioValues": [
             {
@@ -4392,14 +4391,14 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 25
+              "ioValue": 11
             }
           ]
         },
         {
           "atomType": "Move",
-          "x": 0.2753623188405797,
-          "y": 0.7759815242494226,
+          "x": 0.24705882352941178,
+          "y": 0.9452631578947368,
           "uniqueID": "id-3084",
           "ioValues": [
             {
@@ -4709,6 +4708,38 @@
           "resolution": 96,
           "importIndex": 0,
           "partName": ""
+        },
+        {
+          "atomType": "RegularPolygon",
+          "x": 0.05746606334841629,
+          "y": 0.9221052631578948,
+          "uniqueID": "id-5053",
+          "ioValues": [
+            {
+              "name": "number of sides",
+              "ioValue": 6
+            },
+            {
+              "name": "diameter",
+              "ioValue": 10
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.15746606334841629,
+          "y": 0.9221052631578948,
+          "uniqueID": "id-5057",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "height",
+              "ioValue": 6
+            }
+          ]
         }
       ],
       "allConnectors": [
@@ -4776,11 +4807,6 @@
           "ap2Name": "geometry",
           "ap1ID": "id-3024",
           "ap2ID": "id-3028"
-        },
-        {
-          "ap2Name": "geometry",
-          "ap1ID": "id-3024",
-          "ap2ID": "id-3084"
         },
         {
           "ap2Name": "Shape 2",
@@ -4881,6 +4907,16 @@
           "ap2Name": "retain",
           "ap1ID": "id-3754",
           "ap2ID": "id-3039"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-5053",
+          "ap2ID": "id-5057"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-5057",
+          "ap2ID": "id-3084"
         }
       ],
       "fileTypeVersion": 1
