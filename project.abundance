@@ -3289,6 +3289,60 @@
           ]
         },
         {
+          "atomType": "Assembly",
+          "x": 0.7,
+          "y": 0.3,
+          "uniqueID": "id-5877",
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 2",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 3",
+              "ioValue": null
+            },
+            {
+              "name": "Shape 4",
+              "ioValue": null
+            }
+          ]
+        },
+        {
+          "atomType": "Export",
+          "x": 0.9,
+          "y": 0.3,
+          "uniqueID": "id-5884",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "File Type",
+              "ioValue": "STEP",
+              "currentEquation": "STEP"
+            },
+            {
+              "name": "Resolution (dpi)",
+              "ioValue": 96
+            },
+            {
+              "name": "Part Name",
+              "ioValue": "M4_BaseQtr",
+              "currentEquation": "M4_BaseQtr"
+            }
+          ],
+          "type": null,
+          "resolution": 96,
+          "importIndex": 0,
+          "partName": "M4_BaseQtr"
+        },
+        {
           "atomType": "Move",
           "x": 0.4,
           "y": 0.4,
@@ -3547,11 +3601,6 @@
           "ap2ID": "id-117"
         },
         {
-          "ap2Name": "retain",
-          "ap1ID": "id-56",
-          "ap2ID": "id-5841"
-        },
-        {
           "ap2Name": "geometry",
           "ap1ID": "id-60",
           "ap2ID": "id-56"
@@ -3590,6 +3639,11 @@
           "ap2Name": "geometry1",
           "ap1ID": "id-117",
           "ap2ID": "id-141"
+        },
+        {
+          "ap2Name": "retain",
+          "ap1ID": "id-117",
+          "ap2ID": "id-5841"
         },
         {
           "ap2Name": "geometry",
@@ -3677,14 +3731,39 @@
           "ap2ID": "id-5868"
         },
         {
-          "ap2Name": "remove",
+          "ap2Name": "geometry",
+          "ap1ID": "id-5841",
+          "ap2ID": "id-5884"
+        },
+        {
+          "ap2Name": "Shape 4",
+          "ap1ID": "id-5845",
+          "ap2ID": "id-5877"
+        },
+        {
+          "ap2Name": "Shape 3",
+          "ap1ID": "id-5856",
+          "ap2ID": "id-5877"
+        },
+        {
+          "ap2Name": "Shape 1",
           "ap1ID": "id-5862",
-          "ap2ID": "id-5841"
+          "ap2ID": "id-5877"
         },
         {
           "ap2Name": "z-axis degrees",
           "ap1ID": "id-5868",
           "ap2ID": "id-5862"
+        },
+        {
+          "ap2Name": "Shape 2",
+          "ap1ID": "id-5868",
+          "ap2ID": "id-5877"
+        },
+        {
+          "ap2Name": "remove",
+          "ap1ID": "id-5877",
+          "ap2ID": "id-5841"
         }
       ],
       "fileTypeVersion": 1
