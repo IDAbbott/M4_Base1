@@ -3291,7 +3291,7 @@
         {
           "atomType": "Assembly",
           "x": 0.7,
-          "y": 0.3,
+          "y": 0.1,
           "uniqueID": "id-5877",
           "ioValues": [
             {
@@ -3601,6 +3601,11 @@
           "ap2ID": "id-117"
         },
         {
+          "ap2Name": "retain",
+          "ap1ID": "id-56",
+          "ap2ID": "id-5841"
+        },
+        {
           "ap2Name": "geometry",
           "ap1ID": "id-60",
           "ap2ID": "id-56"
@@ -3639,11 +3644,6 @@
           "ap2Name": "geometry1",
           "ap1ID": "id-117",
           "ap2ID": "id-141"
-        },
-        {
-          "ap2Name": "retain",
-          "ap1ID": "id-117",
-          "ap2ID": "id-5841"
         },
         {
           "ap2Name": "geometry",
