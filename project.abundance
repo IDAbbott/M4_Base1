@@ -3333,14 +3333,14 @@
             },
             {
               "name": "Part Name",
-              "ioValue": "M4_BaseQtr",
-              "currentEquation": "M4_BaseQtr"
+              "ioValue": "M4_BaseCentre",
+              "currentEquation": "M4_BaseCentre"
             }
           ],
           "type": null,
           "resolution": 96,
           "importIndex": 0,
-          "partName": "M4_BaseQtr"
+          "partName": "M4_BaseCentre"
         },
         {
           "atomType": "Move",
